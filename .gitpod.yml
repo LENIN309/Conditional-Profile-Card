@@ -7,5 +7,5 @@ tasks:
   - init: echo 'init script' # runs during prebuild
     command: npm install
 
-    image:
+image:
   file: .gitpod.Dockerfile
